@@ -1,0 +1,10 @@
+.formLog {
+  padding: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(141, 167, 167);
+}
+.btnLog {
+  padding-top: 10px;
+  text-align: center;
+}

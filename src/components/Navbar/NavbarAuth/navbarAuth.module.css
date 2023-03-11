@@ -1,0 +1,32 @@
+.link {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  width: 90px;
+
+  color: white;
+  text-decoration: none;
+  background-color: rgb(10, 109, 209);
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.link:global(.active) {
+  background-color: slategray;
+  color: rgb(201, 195, 195);
+}
+.link:global(.active):hover {
+  background-color: slategray;
+  color: rgb(201, 195, 195);
+}
+
+.link:hover {
+  background-color: rgb(7, 87, 167);
+}
+
+.navbarAuth {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
