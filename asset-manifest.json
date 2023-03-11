@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/goit-react-hw-08-phonebook-whith-styles/static/css/main.9c462441.css",
+    "main.js": "/goit-react-hw-08-phonebook-whith-styles/static/js/main.ab5e8007.js",
+    "static/css/132.ae7f2296.chunk.css": "/goit-react-hw-08-phonebook-whith-styles/static/css/132.ae7f2296.chunk.css",
+    "static/js/132.e294940e.chunk.js": "/goit-react-hw-08-phonebook-whith-styles/static/js/132.e294940e.chunk.js",
+    "static/css/58.8998af52.chunk.css": "/goit-react-hw-08-phonebook-whith-styles/static/css/58.8998af52.chunk.css",
+    "static/js/58.c5fc7214.chunk.js": "/goit-react-hw-08-phonebook-whith-styles/static/js/58.c5fc7214.chunk.js",
+    "static/css/889.a3376c3c.chunk.css": "/goit-react-hw-08-phonebook-whith-styles/static/css/889.a3376c3c.chunk.css",
+    "static/js/889.b1f0bd72.chunk.js": "/goit-react-hw-08-phonebook-whith-styles/static/js/889.b1f0bd72.chunk.js",
+    "static/js/794.3a8a9281.chunk.js": "/goit-react-hw-08-phonebook-whith-styles/static/js/794.3a8a9281.chunk.js",
+    "index.html": "/goit-react-hw-08-phonebook-whith-styles/index.html",
+    "main.9c462441.css.map": "/goit-react-hw-08-phonebook-whith-styles/static/css/main.9c462441.css.map",
+    "main.ab5e8007.js.map": "/goit-react-hw-08-phonebook-whith-styles/static/js/main.ab5e8007.js.map",
+    "132.ae7f2296.chunk.css.map": "/goit-react-hw-08-phonebook-whith-styles/static/css/132.ae7f2296.chunk.css.map",
+    "132.e294940e.chunk.js.map": "/goit-react-hw-08-phonebook-whith-styles/static/js/132.e294940e.chunk.js.map",
+    "58.8998af52.chunk.css.map": "/goit-react-hw-08-phonebook-whith-styles/static/css/58.8998af52.chunk.css.map",
+    "58.c5fc7214.chunk.js.map": "/goit-react-hw-08-phonebook-whith-styles/static/js/58.c5fc7214.chunk.js.map",
+    "889.a3376c3c.chunk.css.map": "/goit-react-hw-08-phonebook-whith-styles/static/css/889.a3376c3c.chunk.css.map",
+    "889.b1f0bd72.chunk.js.map": "/goit-react-hw-08-phonebook-whith-styles/static/js/889.b1f0bd72.chunk.js.map",
+    "794.3a8a9281.chunk.js.map": "/goit-react-hw-08-phonebook-whith-styles/static/js/794.3a8a9281.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c462441.css",
+    "static/js/main.ab5e8007.js"
+  ]
+}
