@@ -11,7 +11,7 @@ const PublicRote = () => {
   }
 
   if (isLogin) {
-    return <Navigate to="/goit-react-hw-08-phonebook/" />;
+    return <Navigate to="/goit-react-hw-08-phonebook-whith-styles/" />;
   }
   return <Outlet />;
 };

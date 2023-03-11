@@ -1,4 +1,4 @@
-// import style from './navbarUser.module.css';
+import style from './navbarUser.module.css';
 import { useSelector, useDispatch } from 'react-redux';
 
 import { logout } from 'redux/auth/auth-operations';
@@ -14,8 +14,11 @@ const NavbarUser = () => {
   };
 
   return (
-    <div>
-      {name}, <button onClick={onLogout}>Logout</button>
+    <div className={style.userLog}>
+      {name}
+      <button className={style.btnUserLog} onClick={onLogout}>
+        Logout
+      </button>
     </div>
   );
 };
