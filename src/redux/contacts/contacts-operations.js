@@ -36,7 +36,15 @@ export const fetchAddContacts = createAsyncThunk(
       });
       if (findContact) {
         Notiflix.Notify.failure(
-          `The contact ${name} whith ${number} phone is already exist`
+          `The contact ${name} whith ${number} phone is already exist`,
+          {
+            cssAnimationDuration: 200,
+            cssAnimationIn: 'fadeIn',
+            cssAnimationOut: 'fadeOut',
+            cssAnimation: true,
+            zindex: 10100,
+            position: 'center-bottom',
+          }
         );
         return false;
       }
@@ -50,6 +58,18 @@ export const fetchDeleteContacts = createAsyncThunk(
     try {
       await api.deleteContacts(id);
       return id;
+    } catch ({ response }) {
+      return rejectWithValue(response.data.message);
+    }
+  }
+);
+
+export const fetchChangeContacts = createAsyncThunk(
+  'contacts/change',
+  async (data, { rejectWithValue }) => {
+    try {
+      await api.changeContacts(data);
+      return data;
     } catch ({ response }) {
       return rejectWithValue(response.data.message);
     }

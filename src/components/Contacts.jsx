@@ -9,6 +9,7 @@ import {
   fetchAllContacts,
   fetchAddContacts,
   fetchDeleteContacts,
+  fetchChangeContacts,
 } from 'redux/contacts/contacts-operations';
 import { setFilter } from 'redux/filter/filter-slice';
 
@@ -34,6 +35,9 @@ const Contacts = () => {
   const onDeleteContact = id => {
     dispatch(fetchDeleteContacts(id));
   };
+  const onChangeContact = value => {
+    dispatch(fetchChangeContacts(value));
+  };
 
   const hendleFilter = ({ target }) => {
     dispatch(setFilter(target.value));
@@ -52,6 +56,7 @@ const Contacts = () => {
           <ContactList
             deleteContact={onDeleteContact}
             items={filteredContacts}
+            changeContact={onChangeContact}
           />
         )}
       </div>

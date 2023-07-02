@@ -4,7 +4,7 @@
 }
 
 .list {
-  width: 620px;
+  width: 560px;
   height: 360px;
   list-style: none;
   overflow: overlay;
@@ -32,13 +32,37 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .listItemText {
+  text-align: start;
   font-family: textFont;
   color: #2c2c2bef;
-
+  padding-left: 10px;
   margin-right: 10px;
+}
+.call {
+  text-decoration: none;
+  height: 28px;
+  margin-left: 24px;
+  background-color: tomato;
+  color: #fff;
+  border: none;
+  border-radius: 16px;
+  padding: 0px 10px;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+
+  font-family: kamerik2;
+  font-size: smaller;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 
 .button {
@@ -55,8 +79,49 @@
 
   font-family: kamerik2;
 }
+.call:hover,
+.call:focus,
 .button:hover,
 .button:focus {
   background-color: rgb(202, 87, 66);
   color: #fff;
+}
+
+.delConfirmText {
+  display: flex;
+  align-items: center;
+  font-family: kamerik;
+  padding-right: 20px;
+  padding-left: 28px;
+}
+.changeLabel {
+  /* padding: 10px; */
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  border: 1px solid #000000;
+  border-radius: 16px;
+  background-color: #04f7392c;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+
+  font-family: textFont;
+  color: #2c2c2bef;
+}
+.changeFieldName {
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  outline: none;
+}
+.changeFieldNumber {
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  outline: none;
+  /* padding-right: 10px; */
 }

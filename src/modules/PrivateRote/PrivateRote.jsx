@@ -11,7 +11,7 @@ const PrivateRote = () => {
   }
 
   if (!isLogin && !token) {
-    return <Navigate to="/goit-react-hw-08-phonebook-whith-styles/start" />;
+    return <Navigate to="/goit-react-hw-08-phonebook-whith-styles/login" />;
   }
   return <Outlet />;
 };
