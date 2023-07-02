@@ -1,46 +1,82 @@
+@font-face {
+  font-family: 'kamerik';
+  src: url('../../fonts/Kalam-Bold.ttf');
+}
+
 .form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  width: 500px;
-  height: 200px;
-  padding: 50px;
-  border: 1px solid black;
+  width: 420px;
+  /* height: 200px; */
+  /* padding: 50px; */
+  /* border: 1px solid black;
   border-radius: 10px;
-  background-color: rgb(141, 167, 167);
+  background-color: rgb(141, 167, 167); */
+  /* padding-left: 30px; */
+}
+.headerContact {
+  margin-top: 50px;
+  margin-bottom: 60px;
+
+  font-family: kamerik;
+  color: #000;
+  text-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 
 .label {
   display: grid;
-  grid-template-columns: 120px 1fr;
+  grid-template-columns: 80px 1fr;
   align-items: center;
   gap: 10px;
   margin-bottom: 15px;
-  width: 400px;
+  width: 380px;
+
+  font-family: kamerik;
+  font-size: larger;
+  color: #000;
+  text-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 
-.input {
-  padding: 10px;
+.inputField {
+  /* padding: 10px;
   border: 1px solid;
   border-radius: 5px;
   box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
-    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
-}
-
-.button {
-  background-color: rgb(10, 109, 209);
-  color: #fff;
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12); */
+  padding: 10px;
   border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  width: 120px;
-  cursor: pointer;
+  border: 1px solid #000000;
+  border-radius: 16px;
+  background-color: #04f7392c;
   box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
     0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
+.inputField::placeholder {
+  font-family: kamerik;
+}
+
+.button {
+  color: #fff;
+  border: none;
+  padding: 4px 20px;
+  cursor: pointer;
+  border-radius: 16px;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.5);
+  background-color: rgba(243, 137, 15, 0.664);
+  backdrop-filter: blur(3px);
+
+  font-family: kamerik2;
+  font-size: large;
+  margin-top: 20px;
+  margin-left: 100px;
+}
 .button:hover,
 .button:focus {
-  background-color: rgb(7, 87, 167);
+  background-color: rgb(228, 150, 5);
   color: #fff;
 }

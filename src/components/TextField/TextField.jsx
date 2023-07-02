@@ -8,7 +8,9 @@ const TextField = ({ label, handleChange, ...props }) => {
 
   return (
     <div className={styles.wrapper}>
-      <label htmlFor={id}>{label}</label>
+      <label className={styles.text} htmlFor={id}>
+        {label}
+      </label>
       <input
         className={styles.field}
         id={id}

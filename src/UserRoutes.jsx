@@ -4,8 +4,8 @@ import { Routes, Route } from 'react-router-dom';
 import PrivateRote from 'modules/PrivateRote/PrivateRote';
 import PublicRote from 'modules/PublicRote/PublicRote';
 import HeaderWraper from 'components/HeaderWraper/HeaderWraper';
-
 const HomePage = lazy(() => import('./pages/HomePage/HomePage'));
+
 const RegisterPage = lazy(() => import('./pages/RegisterPage/RegisterPage'));
 const LoginPage = lazy(() => import('./pages/LoginPage/LoginPage'));
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage/NotFoundPage'));

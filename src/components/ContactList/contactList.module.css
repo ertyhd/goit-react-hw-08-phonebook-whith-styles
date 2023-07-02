@@ -1,28 +1,59 @@
+@font-face {
+  font-family: 'textFont';
+  src: url('../../fonts/RobotoCondensed-Bold.ttf');
+}
+
 .list {
-  width: 500px;
-  text-align: center;
+  width: 620px;
+  height: 360px;
   list-style: none;
+  overflow: overlay;
+  margin-bottom: 40px;
+}
+.list::-webkit-scrollbar {
+  width: 10px;
+}
+.list::-webkit-scrollbar-thumb {
+  background-color: #c9af3de0;
+
+  border-radius: 4px;
+}
+.list::-webkit-scrollbar-thumb:hover {
+  background-color: #eb7609;
 }
 
 .listItem {
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 20px;
+  margin-right: 20px;
+}
+.listItemValue {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .listItemText {
+  font-family: textFont;
+  color: #2c2c2bef;
+
   margin-right: 10px;
 }
 
 .button {
-  margin-left: 10px;
+  height: 28px;
+  margin-left: 4px;
   background-color: tomato;
   color: #fff;
   border: none;
-  border-radius: 5px;
-  padding: 5px 20px;
-  width: 120px;
+  border-radius: 16px;
+  padding: 5px 10px;
   cursor: pointer;
   box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
     0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+
+  font-family: kamerik2;
 }
 .button:hover,
 .button:focus {

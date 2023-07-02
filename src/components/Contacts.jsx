@@ -42,21 +42,20 @@ const Contacts = () => {
   const isContacts = Boolean(filteredContacts.length);
 
   return (
-    <>
-      <h1>Phonebook</h1>
+    <div className={style.container}>
       <ContactForm onSubmit={onAddContact} />
-      <h2>Contacts</h2>
+
       <div className={style.block}>
         <Filter value={filter} handleChange={hendleFilter} />
+
         {isContacts && (
           <ContactList
             deleteContact={onDeleteContact}
             items={filteredContacts}
           />
         )}
-        {!isContacts && <p>No contacts in list</p>}
       </div>
-    </>
+    </div>
   );
 };
 

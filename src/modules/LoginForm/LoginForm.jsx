@@ -14,6 +14,7 @@ const LoginForm = ({ onSubmit }) => {
   const { email, password } = state;
   return (
     <form className={style.formLog} onSubmit={handleSubmit}>
+      <h1 className={style.hederLog}>Login form</h1>
       <TextField value={email} handleChange={handleChange} {...fields.email} />
       <TextField
         value={password}
@@ -21,7 +22,7 @@ const LoginForm = ({ onSubmit }) => {
         {...fields.password}
       />
       <div className={style.btnLog}>
-        <Button>Login</Button>
+        <Button>Sign in</Button>
       </div>
     </form>
   );

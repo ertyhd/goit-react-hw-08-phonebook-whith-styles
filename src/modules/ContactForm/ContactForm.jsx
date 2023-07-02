@@ -21,26 +21,27 @@ const ContactForm = ({ onSubmit }) => {
   const { name, number } = state;
   return (
     <form className={contactForm.form} onSubmit={hendleSubmit}>
+      <h1 className={contactForm.headerContact}>Contacts</h1>
       <label className={contactForm.label}>
         Name
         <input
-          className={contactForm.input}
+          className={contactForm.inputField}
           onChange={hendleChange}
           type="text"
           name="name"
           value={name}
-          placeholder="Input name"
+          placeholder="input name"
         />
       </label>
       <label className={contactForm.label}>
         Number
         <input
-          className={contactForm.input}
+          className={contactForm.inputField}
           onChange={hendleChange}
           type="text"
           name="number"
           value={number}
-          placeholder="Input number"
+          placeholder="input number"
         />
       </label>
 

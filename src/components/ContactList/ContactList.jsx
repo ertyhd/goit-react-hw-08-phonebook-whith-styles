@@ -6,8 +6,24 @@ import contactList from './contactList.module.css';
 const ContactList = ({ deleteContact, items }) => {
   const elements = items.map(({ id, name, number }) => (
     <li className={contactList.listItem} key={id}>
-      <span className={contactList.listItemText}>{name}</span>
-      <span className={contactList.listItemText}>{number}</span>
+      <div className={contactList.listItemValue}>
+        <span className={contactList.listItemText}>{name}</span>
+        <span className={contactList.listItemText}>{number}</span>
+      </div>
+      <button
+        onClick={() => deleteContact(id)}
+        className={contactList.button}
+        type="button"
+      >
+        Call
+      </button>
+      <button
+        onClick={() => deleteContact(id)}
+        className={contactList.button}
+        type="button"
+      >
+        Change
+      </button>
       <button
         onClick={() => deleteContact(id)}
         className={contactList.button}

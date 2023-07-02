@@ -13,6 +13,7 @@ const Filter = ({ handleChange, value }) => {
         onChange={handleChange}
         className={style.filterInput}
         type="text"
+        placeholder="name or number"
       />
     </label>
   );

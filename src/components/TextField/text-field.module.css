@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'kamerik';
+  src: url('../../fonts/Kalam-Bold.ttf');
+}
 .wrapper {
   display: grid;
   grid-template-columns: 120px 1fr;
@@ -9,8 +13,21 @@
 
 .field {
   padding: 10px;
-  border: 1px solid;
-  border-radius: 5px;
+  border: none;
+  border: 1px solid #000000;
+  border-radius: 16px;
+  background-color: #04f7392c;
   box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
     0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+.text {
+  padding-top: 10px;
+  font-family: kamerik;
+  font-size: larger;
+  color: #000;
+  text-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+.field::placeholder {
+  font-family: kamerik;
 }
