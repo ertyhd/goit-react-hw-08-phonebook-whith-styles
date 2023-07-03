@@ -52,7 +52,7 @@
   background-image: url('../../../assets/img/millLayer3.png');
   transform: translateZ(10px);
   left: calc(var(--move-x) / 5);
-  bottom: -130px;
+  bottom: -140px;
 }
 .liers_5 {
   background-image: url('../../../assets/img/millLayer2.png');
@@ -64,12 +64,12 @@
   background-image: url('../../../assets/img/millLayer14.png');
   transform: translateZ(100px) scale(1.08);
   left: calc(var(--move-x) * 1.8);
-  top: -110px;
+  top: -60px;
 }
 .liers_6 {
   background-image: url('../../../assets/img/millLayer13.png');
   transform: translateZ(150px);
 
-  left: calc(var(--move-x) * 3);
-  top: -200px;
+  left: calc(var(--move-x) * 2);
+  top: -150px;
 }
