@@ -1,4 +1,4 @@
-import style from './registerForm.module.css';
+import style from './registerForm.module.scss';
 
 import useForm from 'shared/useForm';
 import TextField from 'components/TextField/TextField';

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import style from './filter.module.css';
+import style from './filter.module.scss';
 
 const Filter = ({ handleChange, value }) => {
   return (

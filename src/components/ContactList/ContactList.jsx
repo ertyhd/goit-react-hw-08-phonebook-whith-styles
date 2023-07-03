@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { useState } from 'react';
 
-import contactList from './contactList.module.css';
+import contactList from './contactList.module.scss';
 
 const ContactList = ({ deleteContact, items, changeContact }) => {
   const [isDelete, setDelete] = useState('');

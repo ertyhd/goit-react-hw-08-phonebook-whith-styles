@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 
-import style from './navbarAuth.module.css';
+import style from './navbarAuth.module.scss';
 
 const NavbarAuth = () => {
   return (

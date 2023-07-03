@@ -2,7 +2,7 @@ import { Outlet } from 'react-router-dom';
 
 import Navbar from 'components/Navbar/Navbar';
 
-import style from './headerWraper.module.css';
+import style from './headerWraper.module.scss';
 
 const HeaderWraper = () => {
   return (

@@ -1,4 +1,4 @@
-import style from './navbar.module.css';
+import style from './navbar.module.scss';
 import { useSelector } from 'react-redux';
 
 import NavbarAuth from './NavbarAuth/NavbarAuth';

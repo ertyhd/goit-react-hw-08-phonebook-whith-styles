@@ -1,4 +1,4 @@
-import style from './navbarUser.module.css';
+import style from './navbarUser.module.scss';
 import { useSelector, useDispatch } from 'react-redux';
 
 import { logout } from 'redux/auth/auth-operations';

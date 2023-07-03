@@ -1,4 +1,4 @@
-import style from './loginForm.module.css';
+import style from './loginForm.module.scss';
 
 import useForm from 'shared/useForm';
 import TextField from 'components/TextField/TextField';
