@@ -56,7 +56,6 @@ const contactsSlice = createSlice({
         store.loading = true;
       })
       .addCase(fetchChangeContacts.fulfilled, (store, { payload }) => {
-        console.log('pay', payload);
         store.loading = false;
         const index = store.items.findIndex(item => item.id === payload.id);
         store.items.splice(index, 1, payload);

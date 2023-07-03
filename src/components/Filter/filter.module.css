@@ -1,11 +1,10 @@
 .filterLabel {
-  /* padding: 50px 40px; */
   display: grid;
   grid-template-columns: 120px 1fr;
   align-items: center;
   gap: 10px;
   margin-top: 42px;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
   width: 400px;
 
   font-family: kamerik;

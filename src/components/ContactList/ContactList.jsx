@@ -7,7 +7,6 @@ import contactList from './contactList.module.css';
 const ContactList = ({ deleteContact, items, changeContact }) => {
   const [isDelete, setDelete] = useState('');
   const [isChange, setChange] = useState({});
-  console.log('change', isChange);
 
   const hendleChange = ({ target }) => {
     const { name, value } = target;
@@ -15,15 +14,21 @@ const ContactList = ({ deleteContact, items, changeContact }) => {
       return { ...prevState, [name]: value };
     });
   };
-  // const changeContact = isChange => {};
 
-  // onClick={() => deleteContact(id, name, number)}
   const elements = items.map(({ id, name, number }) => (
     <li className={contactList.listItem} key={id}>
       {isChange.id !== id && (
         <div className={contactList.listItemValue}>
-          <span className={contactList.listItemText}>{name}</span>
-          <span className={contactList.listItemText}>{number}</span>
+          <span
+            className={`${contactList.listItemText} ${contactList.listItemTextName}`}
+          >
+            {name}
+          </span>
+          <span
+            className={`${contactList.listItemText} ${contactList.listItemTextNumber}`}
+          >
+            {number}
+          </span>
         </div>
       )}
       {isChange.id === id && (
@@ -103,6 +108,7 @@ const ContactList = ({ deleteContact, items, changeContact }) => {
       )}
     </li>
   ));
+
   return <ul className={contactList.list}>{elements}</ul>;
 };
 

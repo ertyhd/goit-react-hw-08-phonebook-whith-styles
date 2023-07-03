@@ -6,10 +6,28 @@ import contactForm from './contactForm.module.css';
 const ContactForm = ({ onSubmit }) => {
   const [state, setState] = useState({ ...initialState });
 
+  // const hendleChange = ({ target }) => {
+  //   const { name, value } = target;
+  //   setState(prevState => {
+  //     return { ...prevState, [name]: value };
+  //   });
+  // };
+
   const hendleChange = ({ target }) => {
     const { name, value } = target;
+    let formattedValue = value;
+    if (name === 'number' && formattedValue.length > 10) {
+      formattedValue = value.replace(
+        /(\d{3})(\d{3})(\d{2})(\d{2})/,
+        '$1-$2-$3-$4'
+      );
+      formattedValue = formattedValue.slice(0, 13);
+    }
+    // if (formattedValue.length > 13) {
+    //   formattedValue = formattedValue.slice(0, 13);
+    // }
     setState(prevState => {
-      return { ...prevState, [name]: value };
+      return { ...prevState, [name]: formattedValue };
     });
   };
 
@@ -41,7 +59,7 @@ const ContactForm = ({ onSubmit }) => {
           type="text"
           name="number"
           value={number}
-          placeholder="input number"
+          placeholder="+38 ___-___-__-__ "
         />
       </label>
 

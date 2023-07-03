@@ -59,6 +59,13 @@ const Contacts = () => {
             changeContact={onChangeContact}
           />
         )}
+        {!isContacts && (
+          <div className={style.noContactWrapper}>
+            <h2 className={style.noContactWrapperText}>
+              No contacts in list yet
+            </h2>
+          </div>
+        )}
       </div>
     </div>
   );
