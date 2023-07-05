@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-08-phonebook-whith-styles/static/css/main.8a12566d.css",
+    "main.css": "/goit-react-hw-08-phonebook-whith-styles/static/css/main.a03a2598.css",
     "main.js": "/goit-react-hw-08-phonebook-whith-styles/static/js/main.cb811c7e.js",
     "static/css/852.f5d90371.chunk.css": "/goit-react-hw-08-phonebook-whith-styles/static/css/852.f5d90371.chunk.css",
     "static/js/852.ff3ceacb.chunk.js": "/goit-react-hw-08-phonebook-whith-styles/static/js/852.ff3ceacb.chunk.js",
@@ -10,9 +10,9 @@
     "static/js/699.9c363cfa.chunk.js": "/goit-react-hw-08-phonebook-whith-styles/static/js/699.9c363cfa.chunk.js",
     "static/js/794.3a8a9281.chunk.js": "/goit-react-hw-08-phonebook-whith-styles/static/js/794.3a8a9281.chunk.js",
     "static/media/millLayer5opt.png": "/goit-react-hw-08-phonebook-whith-styles/static/media/millLayer5opt.63582c61e246c26bacd7.png",
-    "static/media/millLayer13opt.png": "/goit-react-hw-08-phonebook-whith-styles/static/media/millLayer13opt.33efe166dd6d9888ff48.png",
+    "static/media/millLayer13opt.png": "/goit-react-hw-08-phonebook-whith-styles/static/media/millLayer13opt.ca97e63dd96649a299ed.png",
     "static/media/millLayer4opt.png": "/goit-react-hw-08-phonebook-whith-styles/static/media/millLayer4opt.4c20fb05ce850c2691c3.png",
-    "static/media/millLayer14opt.png": "/goit-react-hw-08-phonebook-whith-styles/static/media/millLayer14opt.13d4ee5f4dece2e56291.png",
+    "static/media/millLayer14opt.png": "/goit-react-hw-08-phonebook-whith-styles/static/media/millLayer14opt.21e04ab565753811cbb2.png",
     "static/media/millLayer2opt.png": "/goit-react-hw-08-phonebook-whith-styles/static/media/millLayer2opt.98d9c548c20bd57013fb.png",
     "static/media/millLayer3opt.png": "/goit-react-hw-08-phonebook-whith-styles/static/media/millLayer3opt.d84d8cbb65d878b51313.png",
     "static/media/Kalam-Bold.ttf": "/goit-react-hw-08-phonebook-whith-styles/static/media/Kalam-Bold.c4671477e81c3c51ffc0.ttf",
@@ -21,7 +21,7 @@
     "static/media/millLogo.svg": "/goit-react-hw-08-phonebook-whith-styles/static/media/millLogo.d42a7d7edb279514c39d.svg",
     "static/media/merriweather-regular-italic.woff2": "/goit-react-hw-08-phonebook-whith-styles/static/media/merriweather-regular-italic.a1cfdc5b5250b7c4b481.woff2",
     "index.html": "/goit-react-hw-08-phonebook-whith-styles/index.html",
-    "main.8a12566d.css.map": "/goit-react-hw-08-phonebook-whith-styles/static/css/main.8a12566d.css.map",
+    "main.a03a2598.css.map": "/goit-react-hw-08-phonebook-whith-styles/static/css/main.a03a2598.css.map",
     "main.cb811c7e.js.map": "/goit-react-hw-08-phonebook-whith-styles/static/js/main.cb811c7e.js.map",
     "852.f5d90371.chunk.css.map": "/goit-react-hw-08-phonebook-whith-styles/static/css/852.f5d90371.chunk.css.map",
     "852.ff3ceacb.chunk.js.map": "/goit-react-hw-08-phonebook-whith-styles/static/js/852.ff3ceacb.chunk.js.map",
@@ -32,7 +32,7 @@
     "794.3a8a9281.chunk.js.map": "/goit-react-hw-08-phonebook-whith-styles/static/js/794.3a8a9281.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a12566d.css",
+    "static/css/main.a03a2598.css",
     "static/js/main.cb811c7e.js"
   ]
 }
