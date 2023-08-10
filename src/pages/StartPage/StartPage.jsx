@@ -1,6 +1,20 @@
 import paralax from './paralax.module.scss';
 
+// import { useLottie } from 'lottie-react';
+// import comp from './comp.json';
+
+// const style = {
+//   height: 300,
+// };
+
 const StartPage = () => {
+  // const options = {
+  //   animationData: comp,
+  //   setSpeed: 2,
+  //   loop: true,
+  //   autoplay: true,
+  // };
+  // const { View } = useLottie(options, style);
   return (
     <div className={paralax.container}>
       <div className={paralax.logo}></div>
